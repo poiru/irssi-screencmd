@@ -2,7 +2,7 @@
 
 Usage
 -------
-To install, simply copy `screencmd.pl` to your irssi plugins directory. For further usage instructions, refer to `screencmd.pl`.
+To install, simply copy `screencmd.pl` to your irssi plugins directory and load it with `/script load screencmd.pl`. For further usage instructions, refer to `screencmd.pl`.
 
 License
 -------
