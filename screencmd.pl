@@ -5,7 +5,7 @@
 #  /set screencmd_detach <command>[; <command2>][; <commandN>]
 #    The command(s) to execute when screen is attached and detached.
 #
-#    Example: /set screencmd_attach /echo hello; /echo world!
+#    Example: /set screencmd_attach /echo hello world!; ^echo suppressed hello
 #
 
 use Irssi;
