@@ -1,19 +1,16 @@
-# Allows execution of commands when irssi's screen instance is attached and detached.
+# Copyright (c) 2014 Birunthan Mohanathas
 #
-# Usage:
-#  /set screencmd_attach <command>[; <command2>][; <commandN>]
-#  /set screencmd_detach <command>[; <command2>][; <commandN>]
-#    The command(s) to execute when screen is attached and detached.
-#
-#    Example: /set screencmd_attach /echo hello world!; ^echo suppressed hello
-#
+# Licensed under the MIT license <http://opensource.org/licenses/MIT>. This
+# file may not be copied, modified, or distributed except according to those
+# terms.
+
+use strict;
+use warnings;
 
 use Irssi;
-use strict;
 
-use vars qw($VERSION %IRSSI);
-$VERSION = '1.0.0';
-%IRSSI = (
+our $VERSION = '1.0.0';
+our %IRSSI = (
     authors     => 'Birunthan Mohanathas',
     contact     => 'firstname@lastname.com',
     name        => 'screencmd',
